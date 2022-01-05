@@ -9,12 +9,38 @@ body
 {
     height: 100vh;
     font-family: 'Poppins';
+    background: rgb(27, 27, 31);
 }
 
 .webgl
 {
-    position: fixed;
-    top: 0;
-    left: 0;
+  
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+    right: 0;
     outline: none;
 }
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    margin: 16em 8em;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1.3rem;
+     width: 100%;
+     color: rgb(218, 218, 224);
+     margin-top: 1em;
+}
+
